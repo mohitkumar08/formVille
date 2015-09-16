@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="database_version">1</integer>
+    <string name="database_name">SURVEYDB.db</string>
+    <string-array name="create_app_tables">
+        <item>@string/create_survey</item>
+        <item>@string/create_survey_image</item>
+
+    </string-array>
+<string name="create_survey">
+            CREATE TABLE IF NOT EXISTS SURVEY (
+        	ID INTEGER PRIMARY KEY AUTOINCREMENT,
+            CITY TEXT,
+            PLOTNO TEXT,
+        	COMPLETEADDRESS TEXT,
+            LOCALITY TEXT,
+            TYPEOFCONSTRUCTION TEXT,
+            CATEGORY TEXT,
+            STAYTYPE TEXT,
+            PLOTAREA TEXT,
+            FLOORS TEXT,
+            STAGEOFCONSTRUCTION TEXT,
+            WHENCONSTRUCTION TEXT,
+            DETAILCONSTRUCTION TEXT,
+            SLABS TEXT,
+            ROOMS TEXT,
+            BATHROOM TEXT,
+            KITCHEN TEXT,
+            EMAILID TEXT,
+            OWNERNAME TEXT,
+            OWNERCONTACT TEXT,
+            BUILDERNAME TEXT,
+            BUILDERCONTACT TEXT,
+            ARCHITECTNAME TEXT,
+            ARCHITECTCONTACT TEXT,
+            SURVEYORNAME TEXT,
+            REMARKS TEXT,
+            IMAGE TEXT,
+            LATITUDE TEXT,
+            LONGITUDE TEXT,
+            ISSYNC TEXT,
+            IMAGEPATH TEXT,
+            CREATEDDATE TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+
+          )
+    </string>
+    <string name="create_survey_image">
+        CREATE TABLE IF NOT EXISTS PHOTO (
+        	ID INTEGER PRIMARY KEY AUTOINCREMENT,
+            IMAGENAME TEXT,
+            IMAGEPATH TEXT,
+            SURVEYID TEXT,
+            ISSYNC TEXT )
+        </string>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6fc4c7067459e8d69e1bbcb3a8973cdd84d5d87b">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-16c8fef452caa9ab3b85cbeb3b0e760b4faf32cf.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-924bd4db7bb3128c7e87f90087074ccb4472064a.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.android.support\support-v13\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c4caf832116bca1f2e140bf1fb600e2edd190837">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-f945cc02d6e0b94e6524465102c4bff3c35ad857.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-9947fb8575b10a14eb04ec98fec28f391aa70f79.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bit\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-e2c2c47617ef6f9877c3a6b04a02f944c23b97bf.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\info.hoang8f\fbutton\1.0.5\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c12397a785c3b1868fbebeffc9553457b27803f">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-a5915ac0bf36e3f393655023a742b892a99f76ad.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.github.ganfra\material-spinner\1.1.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a973f67796996adb991bd6e63a11b2b88a571219">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-efc42c398a93cc974ec983c87d4f15ac147df27a.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-5febc0d66990c40e59e76d9956e81bb3f3ba440b.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.rengwuxian.materialedittext\library\2.1.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="288913b440a3c61c30aa171095453a605432277a">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-0e4a1b5e6ed6b0d2ef58d32e1ac817bc2b4ab3ef.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bit\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\butterknife-7.0.1-56b3b886b8440b2392d713d644a08aa41f3821d2.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.github.satyan\sugar\1.4\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ac045b53684345f4ec8468477e8fc5034d0d2bfd">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-ab261c66d1c96950c9291a8514d48cb25f9d574c.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\org.adw.library\discrete-seekbar\1.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3e2965bae48affdd6dcd3f87cd525a988ade1250">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-7722d59be7639d2025689a5fa775ea304b66078b.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-8f9af9bcb002322e98a4b09a0fd13b877764b511.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\Survey2\volley\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="450ad47b70c141f95424fe2fe0a8495236ca2630">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-7d1b70d7b5598ad00c90fc9395d94794685bdcf2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bit\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\gson-2.2.4-946e67149ff407b133213c6a5c1de570a0db3cf8.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-0ed7109618d508dbc1089ab6fe1e0c6fedfc932f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bit\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\library-2.4.0-9574a9c5965061fbde0ac2c7695170d3472ed295.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-fdb0431b457a3ef71d630b4edbcd9a6458fbbd64.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-826653fd008bf9c2b4c16841638c69056cfe8bb3.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-51806c43b08bb9225abd9b7e36bd7a75f444ab60.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bit\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\18.0\cce0823396aa693798f8882e64213b1772032b09\guava-18.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cce0823396aa693798f8882e64213b1772032b09">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\guava-18.0-f93e0a8136d187474f6e284057b03b2aa18f42e6.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\classes-d41c888f90ae873f8ad6e5ed04ad2ed04a4080e3.jar" />
+    </item>
+    <item
+        jar="E:\WorkspaceMobifly\Survey2\android-saripaar-2.0.2\android-saripaar-2.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73d121ae26214e5dddcfc535cb24d79d76349d10">
+        <dex dex="E:\WorkspaceMobifly\Survey2\app\build\intermediates\pre-dexed\debug\android-saripaar-2.0.2-fff043d35e4c5aff1ecc117cb35a9900a6200ddd.jar" />
+    </item>
+
+</items>

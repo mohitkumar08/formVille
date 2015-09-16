@@ -1,0 +1,159 @@
+<ScrollView
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context="fragment.ThirdFragmentForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinnerStageOfConstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ms_alignLabels="false"
+            app:ms_arrowColor="#0000FF"
+            app:ms_arrowSize="16dp"
+            app:ms_baseColor="@color/primary_pressed"
+            app:ms_errorColor="@color/error_color"
+            app:ms_floatingLabelColor="#000000"
+            app:ms_floatingLabelText="Stage of Construction"
+            app:ms_highlightColor="@color/ripple"
+            app:ms_hint="Stage of Construction"
+            app:ms_multiline="false"/>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinnerWhenConstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ms_alignLabels="false"
+
+            app:ms_arrowColor="#0000FF"
+            app:ms_arrowSize="16dp"
+            app:ms_baseColor="@color/primary_pressed"
+            app:ms_errorColor="@color/error_color"
+            app:ms_floatingLabelColor="#000000"
+            app:ms_floatingLabelText="When was construction started?"
+            app:ms_highlightColor="@color/ripple"
+            app:ms_hint="When was construction started?"
+            app:ms_multiline="false"/>
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinnerDetailsConstruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ms_alignLabels="false"
+            app:ms_arrowColor="#0000FF"
+            app:ms_arrowSize="16dp"
+            app:ms_baseColor="@color/primary_pressed"
+            app:ms_errorColor="@color/error_color"
+            app:ms_floatingLabelColor="#000000"
+            app:ms_floatingLabelText="Details Of Construction"
+            app:ms_highlightColor="@color/ripple"
+            app:ms_hint="Details Of Construction"
+            app:ms_multiline="false"/>
+
+        <!--  <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="No. of slabs till now"
+              android:layout_marginLeft="10sp"
+              android:textColor="@color/primary_text"
+              android:textAppearance="?android:attr/textAppearanceSmall"/>-->
+
+        <!-- <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             app:dsb_indicatorColor="@color/primary_text"
+             app:dsb_indicatorFormatter="%1d"
+             app:dsb_value="-2"
+             app:dsb_max="5"
+             app:dsb_min="0"
+             app:dsb_progressColor="@color/primary"
+             app:dsb_rippleColor="@color/ripple"
+             android:id="@+id/slabsDecreate"
+             />-->
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextslabsDecreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint=" No. of Slabs "
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextNoOfRooms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint=" No. of Rooms "
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextNoOfBathroom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint=" No. of Bathroom "
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextNoOfKitchen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint=" No. of Kitchen "
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="2"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+    </LinearLayout>
+</ScrollView><!-- From: file:/E:/WorkspaceMobifly/Survey2/app/src/main/res/layout/fragment_third_fragment_form.xml -->

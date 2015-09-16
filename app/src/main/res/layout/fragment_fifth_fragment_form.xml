@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="15dp"
+             tools:context="fragment.FifthFragmentForm">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextBuilderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint=" Builder's Name "
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextBuilderContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint="Builder Contact No."
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextArchitectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint="Architect's Name"
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextArchitectContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint="Architect's Contact No."
+            android:inputType="number"
+            android:lines="1"
+            android:maxLength="10"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>

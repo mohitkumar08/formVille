@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "mobifly.bit.survey"
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:support-v13:22.2.1'
+    compile 'com.rengwuxian.materialedittext:library:2.1.4'
+    compile 'org.adw.library:discrete-seekbar:1.0.0'
+    compile project(':android-saripaar-2.0.2')
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.github.satyan:sugar:1.4'
+    compile 'com.melnykov:floatingactionbutton:1.3.0'
+    compile project(':volley')
+    compile 'com.google.android.gms:play-services-location:7.5.0'
+    compile 'com.github.ganfra:material-spinner:1.1.0'
+    compile 'info.hoang8f:fbutton:1.0.5'
+    compile 'com.android.support:cardview-v7:22.2.1'
+    compile 'com.android.support:recyclerview-v7:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+}

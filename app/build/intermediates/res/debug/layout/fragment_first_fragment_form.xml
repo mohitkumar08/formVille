@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_margin="15dp"
+             android:background="#eeeeee"
+             tools:context="fragment.FirstFragmentForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <fr.ganfra.materialspinner.MaterialSpinner
+            android:id="@+id/spinnerCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ms_alignLabels="false"
+            app:ms_arrowColor="#0000FF"
+            app:ms_arrowSize="16dp"
+            app:ms_baseColor="@color/primary_pressed"
+            app:ms_errorColor="@color/error_color"
+            app:ms_floatingLabelColor="#000000"
+            app:ms_floatingLabelText="City Name"
+            app:ms_highlightColor="@color/ripple"
+            app:ms_hint="City"
+            app:ms_multiline="false"/>
+
+        <!--  <View
+              android:layout_width="fill_parent"
+              android:layout_height="1dip"
+              android:layout_marginRight="20dp"
+              android:layout_marginLeft="20dp"
+              android:layout_above="@+id/editTextPlotNo"
+              android:layout_centerVertical="true"
+              android:background="@color/divider"/>
+  -->
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextPlotNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint="Plot No."
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Complete Address"
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editTextLocality"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="10"
+            android:hint="Locality"
+            android:inputType="textCapWords"
+            android:lines="1"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            app:met_baseColor="@color/primary_text"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/primary"
+            app:ms_errorColor="@color/error_color"
+            />
+
+    </LinearLayout>
+
+
+</FrameLayout>
+<!-- From: file:/E:/WorkspaceMobifly/Survey2/app/src/main/res/layout/fragment_first_fragment_form.xml -->
